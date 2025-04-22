@@ -5,11 +5,13 @@ description = "A Django admin module for building and managing models, relation,
 authors = [{name="Alexander Wiese", email=""}]
 readme = "README.md"
 license = {file = "LICENSE"}
-requires-python = ">=3.7"
+requires-python = ">=3.8"
+dependencies = ["Django>=3.2"]
 
 [project.urls]
 Homepage = "https://github.com/alechries/django-admin-constructor"
+Source = "https://github.com/alechries/django-admin-constructor"
 
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "build"]
 build-backend = "setuptools.build_meta"
