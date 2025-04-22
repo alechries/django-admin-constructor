@@ -631,8 +631,11 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
+    Django Admin Constructor - A Django admin module for 
+building and managing models, relation, and admin interface structure 
+      with minimal code changes - all configurable through 
+                the Django admin panel.
+          Copyright (C) 2025  Alexander Wiese
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -652,7 +655,7 @@ Also add information on how to contact you by electronic and paper mail.
   If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
-    <program>  Copyright (C) <year>  <name of author>
+    Django Admin Constructor  Copyright (C) 2025  Alexander Wiese
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type `show c' for details.
@@ -672,3 +675,10 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+---
+
+Django is released under the BSD License. You can find the full license text here:
+<https://opensource.org/licenses/BSD-3-Clause>
+
+This software uses Django, which is licensed under the BSD License.
