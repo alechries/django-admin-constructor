@@ -1,0 +1,15 @@
+[project]
+name = "django-admin-constructor"
+version = "0.1.0"
+description = "A Django admin module for building and managing models, relation, and admin interface structure with minimal code changes - all configurable through the Django admin panel."
+authors = [{name="Alexander Wiese", email=""}]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/alechries/django-admin-constructor"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
