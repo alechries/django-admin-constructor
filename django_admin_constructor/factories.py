@@ -34,9 +34,7 @@ class ModelFactory:
 
 
 # Beispiel für die Verwendung:
-product_model = ModelFactory.get_model('Product')
+# product_model = ModelFactory.get_model('Product')
 
 # Jetzt kannst du mit dem dynamischen Modell arbeiten:
-product = product_model.objects.create(name="Test Produkt", price=19.99, description="Testbeschreibung")
-
-print(product.name)  # Ausgabe: Test Produkt
+# product = product_model.objects.create(name="Test Produkt", price=19.99, description="Testbeschreibung")
